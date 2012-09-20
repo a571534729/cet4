@@ -1,0 +1,242 @@
+<article>
+	<articleTitle>Caught in the Web</articleTitle>
+　　<articleContent>A few months ago, it wasn't unusual for 47-year-old Carla Toebe to spend 15 hours per day online. She'd wake up early, turn on her laptop and chat on Internet dating sites and instant-messaging programs – leaving her bed for only brief intervals. Her household bills piled up, along with the dishes and dirty laundry, but it took near-constant complaints from her four daughters before she realized she had a problem.
+　　"I was starting to feel like my whole world was falling apart – kind of slipping into a depression," said Carla. "I knew that if I didn't get off the dating sites, I'd just keep going," detaching (使脱离) herself further from the outside world.
+　　Toebe's conclusion: She felt like she was "addicted" to the Internet. She's not alone.
+　　Concern about excessive Internet use isn't new. As far back as 1995, articles in medical journals and the establishment of a Pennsylvania treatment center for overusers generated interest in the subject. There's still no consensus on how much time online constitutes too much or whether addiction is possible.
+　　But as reliance on the Web grows, there are signs that the question is getting more serious attention: Last month, a study published in CNS Spectrums claimed to be the first large-scale look at excessive Internet use. The American Psychiatric Association may consider listing Internet addiction in the next edition of its diagnostic manual. And scores of online discussion boards have popped up on which people discuss negative experiences tied to too much time on the Web.
+　　"There's no question that there're people who're seriously in trouble because they're overdoing their Internet involvement," said psychiatrist (精神科医生) Ivan Goldberg. Goldberg calls the problem a disorder rather than a true addiction.
+　　Jonathan Bishop, a researcher in Wales specializing in online communities, is more skeptical. "The Internet is an environment," he said. "You can't be addicted to the environment." Bishop describes the problem as simply a matter of priorities, which can be solved by encouraging people to prioritize other life goals and plans in place of time spent online.
+　　The new CNS Spectrums study was based on results of a nationwide telephone survey of more than 2,500 adults. Like the 2005 survey, this one was conducted by Stanford University researchers.About 6% of respondents reported that "their relationships suffered because of excessive Internet use." About 9% attempted to conceal "nonessential Internet use," and nearly 4% reported feeling "preoccupied by the Internet when offline."
+　　About 8% said they used the Internet as a way to escape problems, and almost 14% reported they "found it hard to stay away from the Internet for several days at a time."
+　　"The Internet problem is still in its infancy," said Elias Aboujaoude, a Stanford professor. No single online activity is to blame for excessive use, he said. "They're online in chat rooms, checking e-mail, or writing blogs. [The problem is] not limited to porn (色情) or gambling" websites.
+　　Excessive Internet use should be defined not by the number of hours spent online but "in terms of losses," said Maressa Orzack, a Harvard University professor. "If it's a loss [where] you're not getting to work, and family relationships are breaking down as a result, then it's too much."
+　　Since the early 1990s, several clinics have been established in the U. S. to treat heavy Internet users. They include the Center for Internet Addiction Recovery and the Center for Internet Behavior.
+　　The website for Orzack's center lists the following among the psychological symptoms of computer addiction:
+　　● Having a sense of well-being (幸福) or excitement while at the computer.
+　　● Longing for more and more time at the computer.
+　　● Neglect of family and friends.
+　　● Feeling empty, depressed or irritable when not at the computer.
+　　● Lying to employers and family about activities.
+　　● Inability to stop the activity.
+　　● Problems with school or job.
+　　Physical symptoms listed include dry eyes, backaches, skipping meals, poor personal hygiene (卫生) and sleep disturbances.
+　　People who struggle with excessive Internet use maybe depressed or have other mood disorders, Orzack said. When she discusses Internet habits with her patients, they often report that being online offers a "sense of belonging, and escape, excitement [and] fun," she said. "Some people say relief…because they find themselves so relaxed."
+　　Some parts of the Internet seem to draw people in more than others. Internet gamers spend countless hours competing in games against people from all over the world. One such game, called World of Warcraft, is cited on many sites by posters complaining of a "gaming addiction."
+　　Andrew Heidrich, an education network administrator from Sacramento, plays World of Warcraft for about two to four hours every other night, but that's nothing compared with the 40 to 60 hours a week he spent playing online games when he was in college. He cut back only after a full-scale family intervention (干预), in which relatives told him he'd gained weight.
+　　"There's this whole culture of competition that sucks people in" with online gaming, said Heidrich, now a father of two. "People do it at the expense of everything that was a constant in their lives." Heidrich now visits websites that discuss gaming addiction regularly "to remind myself to keep my love for online games in check."
+　　Toebe also regularly visits a site where posters discuss Internet overuse. In August, when she first realized she had a problem, she posted a message on a Yahoo Internet addiction group with the subject line: "I have an Internet Addiction."
+　　"I'm self-employed and need the Internet for my work, but I'm failing to accomplish my work,to take care of my home, to give attention to my children," she wrote in a message sent to the group."I have no money or insurance to get professional help; I can't even pay my mortgage (抵押贷款) and face losing everything."
+　　Since then, Toebe said, she has kept her promise to herself to cut back on her Internet use. "I have a boyfriend now, and I'm not interested in online dating," she said by phone last week. "It's a lot better now."</articleContent>
+	<subject>
+　　	<question>1. What eventually made Carla Toebe realize she was spending too much time on the Internet?</question>
+	　　<choice>A) Her daughter's repeated complaints.</choice>
+	　　<choice>B) Fatigue resulting from lack of sleep.</choice>
+	　　<choice>C) The poorly managed state of her house.</choice>
+	　　<choice>D) The high financial costs adding up.</choice>
+		<answer>1. A) her daughers' repeated complains</answer>
+		<introduction>1. A) her daughers' repeated complains
+根据第一段最后一句”but it took near-constant complaints from her four daughters before she realized she had a problem.” 直到她的四个女儿不停的抱怨，她才意识到自己出了问题。</introduction>
+	</subject>
+	<subject>
+　　	<question>2. What does the author say about excessive Internet use?</question>
+	　　<choice>A) People should be warned of its harmful consequences.</choice>
+	　　<choice>B) It has become virtually inevitable.</choice>
+	　　<choice>C) It has been somewhat exaggerated.</choice>
+	　　<choice>D) People haven't yet reached agreement on its definition.</choice>
+		<answer>2. D) People haven't yet reached agreement on its definition</answer>
+		<introduction>2. D) People haven't yet reached agreement on its definition
+据第四段最后一句，对此，人们还未达成共识。</introduction>
+	</subject>
+	<subject>
+　　	<question>3. Jonathan Bishop believes that the Internet overuse problem can be solved if people ______.</question>
+	　　<choice>A) try to improve the Internet environment</choice>
+	　　<choice>B) become aware of its serious consequences</choice>
+	　　<choice>C) can realize what is important in life</choice>
+	　　<choice>D) can reach a consensus on its definition</choice>
+		<answer>3. C) can realize what is important in life</answer>
+		<introduction>3. C) can realize what is important in life
+据第七段最后一句，”…can be solved by encouraging people to prioritize other life goals and plans…” 解决这个问题的办法就是将生命中其他的目标和计划摆到重要位置。</introduction>
+	</subject>
+	<subject>
+　　	<question>4. According to Professor Maressa Orzack, Internet use would be considered excessive if ______.</question>
+　　	<choice>A) it seriously affected family relationships</choice>
+　　	<choice>B) one visited porn websites frequently</choice>
+　　	<choice>C) too much time was spent in chat rooms</choice>
+　　	<choice>D) people got involved in online gambling</choice>
+		<answer>4. A) it seriously affected family relationships</answer>
+		<introduction>4. A) it seriously affected family relationships
+根据第十一段最后一句，”if it’s a loss…and family relationships are breaking down…it’s too much.”</introduction>
+	</subject>
+	<subject>
+　　	<question>5. According to Orzack, people who struggle with heavy reliance on the Internet may feel ______.</question>
+	　　<choice>A) discouraged</choice>
+	　　<choice>B) pressured</choice>
+	　　<choice>C) depressed</choice>
+	　　<choice>D) puzzled</choice>
+		<answer>5. C) depressed</answer>
+		<introduction>5. C) depressed
+根据第十五段第一句话，”People who struggle with excessive Internet use may be depressed…”</introduction>
+	</subject>
+	<subject>
+　　	<question>6. Why did Andre Heidrich cut back online gaming?</question>
+	　　<choice>A) He had lost a lot of money.</choice>
+	　　<choice>B) His family had intervened.</choice>
+	　　<choice>C) He had offended his relatives.</choice>
+	　　<choice>D) His career had been ruined.</choice>
+		<answer>6. B) His family had intervened</answer>
+		<introduction>6. B) His family had intervened
+根据倒数第五段，”he cut back only after a full-scale family intervention…”</introduction>	
+	</subject>
+	<subject>
+　　	<question>7. Andrew Heidrich now visits websites that discuss online gaming addiction to ______.</question>
+	　　<choice>A) improve his online gaming skills</choice>
+	　　<choice>B) curb his desire for online gaming</choice>
+	　　<choice>C) show how good he is at online gaming</choice>
+	　　<choice>D) exchange online gaming experience</choice>
+		<answer>7. B) curb his desire for online gaming</answer>
+		<introduction>7. B) curb his desire for online gaming
+根据倒数第四段最后一句，”to remind myself to keep my love for online games in check.” 其中，keep … in check意为，“制止; 控制”。</introduction>
+	</subject>
+	<subject>
+　　	<question>8. In one of the messages she posted on a website, Toebe admitted that she ______.</question>
+		<answer>8. had an Internet addiction</answer>
+		<introduction>8. had an Internet addiction
+根据倒数第三段最后一句。</introduction>
+	</subject>
+	<subject>
+　　	<question>9. Excessive Internet use had rendered Toebe so poor that she couldn't afford to seek ______.</question>
+		<answer>9. professional help</answer>
+		<introduction>9. professional help
+根据倒数第二段最后一句，”I have no money or insurance to get professional help…”:</introduction>
+	</subject>
+	<subject>
+　　	<question>10. Now that she's got a boyfriend, Toebe is no longer crazy about ______.</question>
+		<answer>10. online dating</answer>
+		<introduction>10. online dating
+根据最后一段，”I have a boyfriend now, and I’m not interested in online dating.”</introduction>
+	</subject>	
+</article>
+<article>
+	<articleTitle>Passage One</articleTitle>
+　　<articleContent>You never see him, but they're with you every time you fly. They record where you are going,how fast you're traveling and whether everything on your airplane is functioning normally. Their ability to withstand almost any disaster makes them seem like something out of a comic book.They're known as the black box.
+　　When planes fall from the sky, as a Yemeni airliner did on its way to Comoros Islands in the India ocean June 30, 2009, the black box is the best bet for identifying what went wrong. So when a French submarine (潜水艇) detected the device's homing signal five days later, the discovery marked a huge step toward determining the cause of a tragedy in which 152 passengers were killed.
+　　In 1958, Australian scientist David Warren developed a flight-memory recorder that would track basic information like altitude and direction. That was the first mode for a black box, which became a requirement on all U.S. commercial flights by 1960. Early models often failed to withstand crashes, however, so in 1965 the device was completely redesigned and moved to the rear of the plane – the area least subject to impact – from its original position in the landing wells (起落架舱). The same year, the Federal Aviation Authority required that the boxes, which were never actually black, be painted orange or yellow to aid visibility.
+　　Modern airplanes have two black boxes: a voice recorder, which tracks pilots' conversations,and a flight-data recorder, which monitors fuel levels, engine noises and other operating functions that help investigators reconstruct the aircraft's final moments. Placed in an insulated (隔绝的) case and surrounded by a quarter-inch-thick panels of stainless steel, the boxes can withstand massive force and temperatures up to 2,000℉. When submerged, they're also able to emit signals from depths of 20,000 ft. Experts believe the boxes from Air France Flight 447, which crashed near Brazil on June 1,2009, are in water nearly that deep, but statistics say they're still likely to turn up. In the approximately 20 deep-sea crashes over the past 30 years, only one plane's black boxes were never recovered.</articleContent>　　
+	<subject>
+		<question>57. What does the author say about the black box?</question>
+	　　<choice>A) It ensures the normal functioning of an airplane.</choice>
+	　　<choice>B) The idea for its design comes from a comic book.</choice>
+	　　<choice>C) Its ability to ward off disasters is incredible.</choice>
+	　　<choice>D) It is an indispensable device on an airplane.</choice>
+		<answer>57. C) Its ability to ward off disasters is incredible.</answer>
+		<introduction>57. C) Its ability to ward off disasters is incredible.
+由文中首段“their ability to withstand almost any disaster makes them seem like something out of a comic book”可得知，作者认为黑匣子能抵御任何灾难，后面的something out of a comic book只是用来比喻黑匣子抵御灾难的巨大能力，与C选项不谋而合。ward off指“避开，防止”。</introduction>
+	</subject>
+	<subject>
+	　　<question>58. What information could be found from the black box on the Yemeni airliner?</question>
+	　　<choice>A) Data for analyzing the cause of the crash.</choice>
+	　　<choice>B) The total number of passengers on board.</choice>
+	　　<choice>C) The scene of the crash and extent of the damage.</choice>
+	　　<choice>D) Homing signals sent by the pilot before the crash.</choice>
+		<answer>58. A) Data for analyzing the cause of the crash.</answer>
+		<introduction>58. A) Data for analyzing the cause of the crash.
+本文第二段介绍了黑匣子在对于探寻Yemeni airliner坠毁原因上所起到的重大作用。由第二段第二行”the black box is the best bet for identifying what went wrong”以及后面由于法国一潜艇找到黑匣子这一发现”marked a huge step toward determining the cause of a tragedy”可以推断出答案。</introduction>
+	</subject>
+	<subject>
+	　　<question>59. Why was the black box redesigned in 1965?</question>
+	　　<choice>A) New materials became available by that time.</choice>
+	　　<choice>B) Too much space was needed for its installation.</choice>
+	　　<choice>C) The early models often got damaged in the crash.</choice>
+	　　<choice>D) The early models didn't provide the needed data.</choice>
+		<answer>59. C) The early models often got damaged in the crash.</answer>
+		<introduction>59. C) The early models often got damaged in the crash.
+文中第三自然段第三行，由”Early models often failed to withstand crashes, however, so in 1965 the device was completely redesigned…”可得知，1965年黑匣子重新设计的原因是之前的黑匣子在坠机时容易遭到破坏。withstand意为“承受，经受”。</introduction>
+	</subject>
+	<subject>
+	　　<question>60. Why did the Federal Aviation Authority require the black boxes be painted orange or yellow?</question>
+	　　<choice>A) To distinguish them from the colour of the plane.</choice>
+	　　<choice>B) To caution people to handle them with care.</choice>
+	　　<choice>C) To make them easily identifiable.</choice>
+	　　<choice>D) To conform to international standards.</choice>
+		<answer>60. C) To make them easily identifiable.</answer>
+		<introduction>60. C) To make them easily identifiable.
+由文中得知黑匣子被漆成橙色或黄色的原因是” to aid visibility”。Visibility是visible的名词形式，意为“能见度，可见度”，因此，漆成橙色或黄色主要是因为希望黑匣子可见度高，比较明显，容易被发现，故选C。</introduction>
+	</subject>
+	<subject>
+	　　<question>61. What do we know about the black boxes from Air France Flight 447?</question>
+	　　<choice>A) There is still a good chance of their being recovered.</choice>
+	　　<choice>B) There is an urgent need for them to be reconstructed.</choice>
+	　　<choice>C) They have stopped sending homing signals.</choice>
+	　　<choice>D) They were destroyed somewhere near Brazil.</choice>
+		<answer>61. A) There is still a good chance for their being recovered.</answer>
+		<introduction>61. A) There is still a good chance for their being recovered.
+作者举出Air France Flight 447的例子主要是用来证明其前面的论点”When submerged, they’re also able to emit signals form depths of 20,000 ft.”意为黑匣子即使被埋于深处仍然能够发射信号以被察觉。Air France Flight 447的黑匣子处于水下深处，但数据显示他们仍能”turn up”（出现），即被探测人员发现。故选A。</introduction>
+	</subject>	
+</article>
+<article>
+	<articleTitle>Passage Two</articleTitle>
+　　<articleContent>The $11 billion self-help industry is built on the idea that you should turn negative thoughts like "I never do anything right" into positive ones like "I can succeed." But was positive thinking advocate Norman Vincent Peale right? Is there power in positive thinking?
+　　Researchers in Canada just published a study in the journal Psychological Science that says trying to get people to think more positively can actually have the opposite effect: it can simply highlight how unhappy they are.
+　　The study's authors, Joanne Wood and John Lee of the University of Waterloo and Elaine Perunovic of the University of New Brunswick, begin by citing older research showing that when people get feedback which they believe is overly positive, they actually feel worse, not better. If you tell your dim friend that he has the potential of an Einstein, you're just underlining his faults. In one 1990s experiment, a team including psychologist Joel Cooper of Princeton asked participants to write essays opposing funding for the disabled. When the essayists were later praised for their sympathy, they felt even worse about what they had written.
+　　In this experiment, Wood, Lee and Perunovic measured 68 students' self-esteem. The participants were then asked to write down their thoughts and feelings for four minutes. Every 15 seconds, one group of students heard a bell. When it rang, they were supposed to tell themselves, "I am lovable."
+　　Those with low self-esteem didn't feel better after the forced self-affirmation. In fact, their moods turned significantly darker than those of members of the control group, who weren't urged to think positive thoughts.
+　　The paper provides support for newer forms of psychotherapy (心理治疗) that urge people to accept their negative thoughts and feelings rather than fight them. In the fighting, we not only often fail but can make things worse. Meditation (静思) techniques, in contrast, can teach people to put their shortcomings into a larger, more realistic perspective. Call it the power of negative thinking</articleContent>	
+	<subject>
+　　	<question>62. What do we learn from the first paragraph about the self-help industry?</question>
+	　　<choice>A) It is a highly profitable industry.</choice>
+	　　<choice>B) It is based on the concept of positive thinking.</choice>
+	　　<choice>) It was established by Norman Vincent Peale.</choice>
+	　　<choice>D) It has yielded positive results.</choice>
+		<answer>62. B) It is based on the concept of positive thinking</answer>
+		<introduction>62. B) It is based on the concept of positive thinking
+
+细节理解题
+本题是问从文章第一段中我们能够了解自我帮助产业的哪些情况。文章第一句就说自我帮助产业是建立在把消极思考转化为积极思考的基础之上，因此B项是正确的。虽然文章一开始虽然说自我帮助产业的规模有110亿美元，但这只是说产业规模，并没有提到该行业具有很高的利润率，因此不能由此判断A项就是正确的。文章中只说Norman Vincent是积极思考的倡导者，并没有说该行业是由他创立的，因此C项不正确。第一段末尾作者就质疑积极思考是否真的有效，因此D项不是正确选项。</introduction>
+	</subject>
+	<subject>
+　　	<question>63. What is the finding of the Canadian researchers?</question>
+	　　<choice>A) Encouraging positive thinking many do more harm than good.</choice>
+	　　<choice>B) There can be no simple therapy for psychological problems.</choice>
+	　　<choice>C) Unhappy people cannot think positively.</choice>
+	　　<choice>D) The power of positive thinking is limited.</choice>
+		<answer>63. A) Encouraging positive thinking may do more harm than good</answer>
+		<introduction>63. A) Encouraging positive thinking may do more harm than good
+细节归纳题
+本题问加拿大研究学者的发现是什么，文章第二段提到他们发表的文章里说让人们更积极地思考实际上会产生相反的效果，只会起到强调人们又多不开心的作用。后面又用实验来说明了这个观点，在文章的第三段和第五段也都再次说到积极思考会起到相反作用，使人们更不开心。因此本题选A项。</introduction>
+	</subject>
+	<subject>
+　　	<question>64. What does the author mean by "… you're just underlining his faults" (Line 4, Para. 3)?</question>
+	　　<choice>A) You are not taking his mistakes seriously enough.</choice>
+	　　<choice>B) You are pointing out the errors he has committed.</choice>
+	　　<choice>C) You are emphasizing the fact that he is not intelligent.</choice>
+	　　<choice>D) You are trying to make him feel better about his faults.</choice>
+		<answer>64. B) You are pointing out the errors he has committed</answer>
+		<introduction>64. B) You are pointing out the errors he has committed
+细节理解题
+本题问作者说“… you’re just underlining his faults”的含义是什么。underline his faults表面意思就是用线划出某人的过失，也就是指出某人所犯的错误，因此应当选B项。</introduction>
+	</subject>
+	<subject>
+　　	<question>65. What do we learn from the experiment of Wood, Lee and Perunovic?</question>
+	　　<choice>A) It is important for people to continually boost their self-esteem.</choice>
+	　　<choice>B) Self-affirmation can bring a positive change to one's mood.</choice>
+	　　<choice>C) Forcing a person to think positive thoughts may lower their self-esteem.</choice>
+	　　<choice>D) People with low self-esteem seldom write down their true feelings.</choice>
+		<answer>65. C) Forcing a person to think positive thoughts may lower their self-esteem</answer>
+		<introduction>65. C) Forcing a person to think positive thoughts may lower their self-esteem
+细节理解题
+本题问从Wood的实验中我们可以了解些什么。此题与63题有一定关联。答案应在对实验结果进行分析说明的段落来找，即文章的第五段。文章第五段说实验者在被迫进行多次自我肯定后，自卑的情况并没有得到改善，反而加重了。因此此题应该选C项。</introduction>
+	</subject>
+	<subject>
+　　	<question>66. What do we learn from the last paragraph?</question>
+	　　<choice>A) The effects of positive thinking vary from person to person.</choice>
+	　　<choice>B) Meditation may prove to be a good form of psychotherapy.</choice>
+	　　<choice>C) Different people tend to have different ways of thinking.</choice>
+	　　<choice>D) People can avoid making mistakes through meditation.</choice>
+		<answer>66. B) Meditation may prove to be a good form of psychotherapy (心理治疗)</answer>
+		<introduction>66. B) Meditation may prove to be a good form of psychotherapy (心理治疗)
+细节理解题
+本题问从文章最后一段我们可以了解些什么，毫无疑问答案自然是在文章最后一段。在这一段里，作者说文章还推荐人们把静思作为一种心理治疗的方法，因此应当选B项。文章只是说静思可以帮助人们学会接受自己的不足，把自己的不足放到更广泛的层面去思考，但并没有说静思可以使人们避免犯错误。因此D项不正确。</introduction>
+	</subject>
+</article>
+

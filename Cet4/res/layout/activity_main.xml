@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	        style="@style/layout_full"
+ 	        android:orientation="vertical">
+    
+ 	<TabHost 
+ 	    android:id="@android:id/tabhost"
+ 	    style="@style/layout_full">
+ 	    
+ 	    <LinearLayout 
+			style="@style/layout_full"
+			android:orientation="vertical">
+ 	        
+ 	        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <fragment
+                        android:id="@+id/content_fragment"
+                        android:name="com.jayz.cet4.view.ui.WordsFragment"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </FrameLayout>
+ 	        
+ 	    
+			<TabWidget 
+			    android:id="@android:id/tabs"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:visibility="gone"/>
+			
+			<FrameLayout 
+			    android:id="@android:id/tabcontent"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+			    
+			    <RelativeLayout 
+			        android:id="@+id/layout_bottom"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content">
+			        
+			        <RadioGroup 
+			            android:id="@+id/radio_group_bottom"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="bottom"
+			            android:gravity="center_vertical"
+			            android:background="@drawable/bottombg"
+			            android:orientation="horizontal">
+			            
+			               <RadioButton
+	                           android:id="@+id/radio_words"
+	                           android:layout_width="wrap_content"
+	                           android:button="@null"
+	                           android:background="@drawable/tab_selector_words"
+	                           android:layout_marginLeft="12dp"
+	                           android:checked="true" />
+	
+	                       <RadioButton
+	                           android:id="@+id/radio_topic"
+	                           android:layout_width="wrap_content"
+	                           android:button="@null"
+	                           android:background="@drawable/tab_selector_topic"
+	                           android:layout_marginLeft="12dp"/>
+	
+	                       <RadioButton
+	                           android:id="@+id/radio_grammar"
+	                           android:layout_width="wrap_content"
+	                           android:button="@null"
+	                           android:background="@drawable/tab_selector_grammar"
+	                           android:layout_marginLeft="12dp"/>
+	
+	                       <RadioButton
+	                           android:id="@+id/radio_more"
+	                           android:layout_width="wrap_content"
+	                           android:button="@null"
+	                           android:background="@drawable/tab_selector_more"
+	                           android:layout_marginLeft="12dp"/>
+	       
+			        </RadioGroup>
+			    </RelativeLayout>
+			    
+			</FrameLayout>
+		</LinearLayout>
+ 	</TabHost>
+</LinearLayout>
