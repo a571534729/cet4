@@ -1,16 +1,21 @@
 package com.jayz.cet4.view;
 
 import com.jayz.R;
-import com.jayz.cet4.view.ui.GrammarFragment;
-import com.jayz.cet4.view.ui.MoreFragment;
-import com.jayz.cet4.view.ui.TopicFragment;
-import com.jayz.cet4.view.ui.WordsFragment;
+import com.jayz.cet4.view.fragment.GrammarFragment;
+import com.jayz.cet4.view.fragment.MoreFragment;
+import com.jayz.cet4.view.fragment.TopicFragment;
+import com.jayz.cet4.view.fragment.WordsFragment;
+import com.jayz.cet4.view.ui.panel.EasingType.Type;
+import com.jayz.cet4.view.ui.panel.ExpoInterpolator;
+import com.jayz.cet4.view.ui.panel.Panel;
+import com.jayz.cet4.view.ui.panel.Panel.OnPanelListener;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
@@ -25,8 +30,10 @@ public class MainActivity extends FragmentActivity{
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_main);
         init();
+        
     }
     
     /**
@@ -83,6 +90,9 @@ public class MainActivity extends FragmentActivity{
 			fragmentTransaction.commit();
 		}
 	};
+
+
+
 	
 	
     

@@ -1,0 +1,52 @@
+<article>
+	<articleContent>　　When we think of green buildings, we tend to think of new ones – the kind of high-tech, solar-paneled masterpieces that make the covers of architecture magazines. But the U.S. has more than 100 million existing homes, and it would be <subject>47</subject> wasteful to tear them all down and <subject>48</subject> them with greener versions. An enormous amount of energy and resources went into the construction of those houses. And it would take an average of 65 years for the <subject>49</subject> carbon emissions from a new energy-efficient home to make up for the resources lost by destroying an old one. So in the broadest <subject>50</subject>, the greenest home is the one that has already been built. But at the same time, nearly half of U. S. carbon emissions come from heating, cooling and <subject>51</subject> our homes, offices and other buildings. "You can't deal with climate change without dealing with existing buildings," says Richard Moe, the president of the National Trust.
+	　　With some <subject>52</subject>, the oldest homes tend to be the least energy-efficient. Houses built before 1939 use about 50% more energy per square foot than those built after 2000, mainly due to the tiny cracks and gaps that <subject>53</subject> over time and let in more outside air.
+	　　Fortunately, there are a <subject>54</subject> number of relatively simple changes that can green older homes, from <subject>55</subject> ones like Lincoln's Cottage to your own postwar home. And efficiency upgrades (升级) can save more than just the earth; they can help <subject>56</subject> property owners from rising power costs.
+	</articleContent>
+　　<choice>A) accommodations</choice>
+　　<choice>B) clumsy</choice>
+　　<choice>C) doubtful</choice>
+　　<choice>D) exceptions</choice>
+　　<choice>E) expand</choice>
+　　<choice>F) historic</choice>
+　　<choice>G) incredibly</choice>
+　　<choice>H) powering</choice>
+　　<choice>I) protect</choice>
+　　<choice>J) reduced</choice>
+　　<choice>K) replace</choice>
+　　<choice>L) sense</choice>
+　　<choice>M) shifted</choice>
+　　<choice>N) supplying</choice>
+　　<choice>O) vast</choice>
+	<answer>47. G</answer>
+	<answer>48. K</answer>        
+	<answer>49. J</answer>
+	<answer>50. L</answer>
+	<answer>51. H</answer>   
+	<answer>52. D</answer>
+	<answer>53. E</answer>
+	<answer>54. O</answer>
+	<answer>55. F</answer> 
+	<answer>56. I</answer>
+	<articleIntroduction>文章大意：本文关注的是绿色建筑与对待现存房屋的问题。根据文意，所谓绿色建筑即为节能减排的建筑。绿色建筑在节能减排方面意义重大，但是将所有现存房屋替换成绿色建筑是否可行呢？文章给出的答案是不可行的，因为推倒这些房屋进行重建也需要大量能量。那么，如何处理这些能耗大的旧房屋呢？文末给出的建议是对它们进行整修和升级。</articleIntroduction>
+	<introduction>47. G incredibly
+	首先这里需要的是一个副词。根据文意，将这些房屋推倒代之以绿色建筑是极度浪费的。因此选incredibly.</introduction>
+	<introduction>48. K replace         
+	replace A with B, 意思是用B 替换A. 这里是用绿色建筑取代现存房屋。</introduction>
+	<introduction>49. J reduced
+	这一句话较难理解，翻译成中文即：绿色建筑带来的碳排放量的减少平均需要65年才能够补偿推倒房屋所用掉的能量。reduced, 这里用作形容词，指减少了的。</introduction>
+	<introduction>50. L sense
+	in the broadest sense, 在最广义上，这里是一个固定搭配。</introduction>
+	<introduction>51. H powering    
+	这里的and 引导的是平行结构，因此横线上需要填入一个动词的ing形式。在根据句意可知这里选powering，指为某物提供动力，使某物得以运行。</introduction>
+	<introduction>52. D exceptions
+	联系下文可知本段意思是老房子基本上是最不节能的。但话不能说得这么绝对，因此用 with some exceptions, 指除一些特殊情况外。</introduction>
+	<introduction>53. E expand
+	tiny cracks and gaps 指的是小的缝隙和缺口。小的缝隙和缺口随着时间流逝，会扩大，从而使得外面空气流入，因而加大了能耗。这里选expand表示扩展，增大。</introduction>
+	<introduction>54. O vast
+	a number of  表示大量的，number前面可加一些形容词，如great等，表示数量极大的。这里填入vast，意为数量巨大的。</introduction>
+	<introduction>55. F historic  
+	句中有from……to……, 从什么到什么，联系整句话，意思是从一些历史上的古老建筑到你自己的战后的房子。postwar 指二战后，是一个较近的时间，与之对应的则是histori</introduction>
+	<introduction>56. I protect
+	首先，从句意判断，可知这一分句仍是陈述为老房屋进行升级的好处。此外，后半句中有介词from. 据此我们可以判断，此处应填入的词是protect.</introduction>
+</article> 　　

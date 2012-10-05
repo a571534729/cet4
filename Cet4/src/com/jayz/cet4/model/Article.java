@@ -14,7 +14,9 @@ public class Article extends Model{
 	private String articleContent;
 	/**题目答题的问题*/
 	private List<Question> question;
+	/**整篇文章的解析*/
 	private String analysis;
+	private String longConversation;
 	
 	public Article(int order) {
 		this.order = order;
@@ -50,8 +52,12 @@ public class Article extends Model{
 	public void setAnalysis(String analysis) {
 		this.analysis = analysis;
 	}
-	
-	
-	
 
+	public String getLongConversation() {
+		return longConversation;
+	}
+
+	public void setLongConversation(String longConversation) {
+		this.longConversation = longConversation;
+	}
 }

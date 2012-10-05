@@ -16,6 +16,8 @@ public class Question extends Model{
 	private String answer;
 	/**问题的解析*/
 	private String analysis;
+	/**对话的原文(只适用于听力)*/
+	private String conversation;
 	
 	public Question(int order) {
 		this.order = order;
@@ -50,6 +52,14 @@ public class Question extends Model{
 	}
 	public void setAnalysis(String analysis) {
 		this.analysis = analysis;
+	}
+
+	public String getConversation() {
+		return conversation;
+	}
+
+	public void setConversation(String conversation) {
+		this.conversation = conversation;
 	}
 	
 	

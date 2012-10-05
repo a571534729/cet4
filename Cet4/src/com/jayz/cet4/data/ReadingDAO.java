@@ -48,7 +48,6 @@ public class ReadingDAO {
 		/** 组装Article对象 */
 		List<String> articlesStr = RegexUtil.parseFileStr(articleRegex, fileStr);
 		if(articlesStr.size()!=0){
-			/** 此部分不包括正确答案和解析*/
 			for(int i = 0;i<articlesStr.size();i++){
 				Article article = new Article(i);
 				//截取文章标题
@@ -68,22 +67,22 @@ public class ReadingDAO {
 					for(int j = 0;j<subjectsStr.size();j++){
 						Question q = new Question(j);
 						//截取题目
-						List<String> questionsStr = RegexUtil.parseFileStr(questionRegex, subjectsStr.get(i));
+						List<String> questionsStr = RegexUtil.parseFileStr(questionRegex, subjectsStr.get(j));
 						if(questionsStr.size()>0&&questionsStr.get(0)!=null){
 							q.setQuestion(questionsStr.get(0));
 						}
 						//截取选项
-						List<String> choicesStr = RegexUtil.parseFileStr(choiceRegex, subjectsStr.get(i));
+						List<String> choicesStr = RegexUtil.parseFileStr(choiceRegex, subjectsStr.get(j));
 						if(subjectsStr.size()!=0){
 							q.setChoice(choicesStr);
 						}
 						//截取正确答案
-						List<String> answersStr = RegexUtil.parseFileStr(answerRegex, subjectsStr.get(i));
+						List<String> answersStr = RegexUtil.parseFileStr(answerRegex, subjectsStr.get(j));
 						if(answersStr.size()>0&&answersStr.get(0)!=null){
 							q.setAnswer(answersStr.get(0));
 						}
 						//截取答案解析
-						List<String> introductionsStr = RegexUtil.parseFileStr(introductionRegex, subjectsStr.get(i));
+						List<String> introductionsStr = RegexUtil.parseFileStr(introductionRegex, subjectsStr.get(j));
 						if(introductionsStr.size()>0&&introductionsStr.get(0)!=null){
 							q.setAnalysis(introductionsStr.get(0));
 						}
@@ -98,20 +97,5 @@ public class ReadingDAO {
 		return articles;
 		
 	}
-	
-//	/**
-//	 * 通过给定的正则法则，解析文件的内容
-//	 * @param regex 需要解析的正则表达式，
-//	 * @param data 需要解析的数据
-//	 * @return
-//	 */
-//	private  List<String> parseFileStr(String regex,String data){
-//		List<String> texts = new ArrayList<String>();
-//		Pattern p = Pattern.compile(regex);
-//		Matcher matcher = p.matcher(data);
-//		while(matcher.find()){
-//			texts.add(matcher.group());
-//		}
-//		return texts;		
-//	}		
+		
 }

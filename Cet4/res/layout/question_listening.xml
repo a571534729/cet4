@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/com.jayz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!-- 播放器 -->
+    <RelativeLayout android:id="@+id/rlAudio" android:layout_width="fill_parent" android:layout_height="48dp"
+        android:background="@drawable/bottom_bg" android:paddingTop="4dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@+id/llSeekBar" android:orientation="horizontal"
+            android:layout_width="wrap_content"	android:layout_height="wrap_content">
+            <Button android:id="@+id/btnPlay" android:background="@drawable/sel_play"
+                android:layout_width="35dp" android:layout_height="35dp"
+	        	android:layout_marginLeft="4dp"/>
+            <TextView android:id="@+id/tvCurrentTime" android:background="@android:color/transparent"
+                android:text="00:00" android:textColor="@color/white" android:textSize="10sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical"/>
+            <SeekBar android:id="@+id/sbAudio" android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@drawable/thumb_normal" android:layout_gravity="center_vertical"
+                android:layout_width="165dp" android:layout_height="19dp"
+                android:layout_marginLeft="8dp" android:layout_marginRight="8dp"/>
+            <TextView android:id="@+id/tvTotalTime" android:background="@android:color/transparent"
+                android:text="00:00" android:textColor="@color/white" android:textSize="10sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical"/>
+            <TextView android:id="@+id/tvCurrentType" android:background="@android:color/transparent"
+                android:text="单词" android:textColor="@color/white" android:textSize="12sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical" android:layout_marginLeft="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <!-- 具体内容 -->
+	<RelativeLayout
+        android:layout_above="@id/rlAudio"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="8dp"
+        android:background="@color/white">
+    	<LinearLayout 
+    	    android:id="@+id/listenBtnTag"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_width="fill_parent"
+        	android:layout_height="40dp"
+        	android:orientation="horizontal">
+	    	<Button 
+	     	    android:id="@+id/lastSubjectListen"
+	      	    android:layout_width="100dp"
+	            android:layout_height="40dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="上一题"
+	            android:textStyle="bold"
+	           	android:textColor="#eee"
+	           	android:layout_marginLeft="4dp"
+	          	android:background="#43CD80"/>
+	    	<Button 
+	     	    android:id="@+id/nextSubjectListen"
+	      	    android:layout_width="100dp"
+	            android:layout_height="40dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="下一题"
+	            android:textStyle="bold"
+	           	android:textColor="#eee"
+	           	android:layout_marginLeft="4dp"
+	          	android:background="#43CD80"/>
+    	</LinearLayout>
+    	<ScrollView
+    	    android:id="@+id/questionSV"
+    	    android:layout_above="@id/listenBtnTag"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+		        <LinearLayout
+		            android:id="@+id/llListenContent" 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical">
+		            
+		        </LinearLayout>
+    	</ScrollView>
+    </RelativeLayout>
+  
+    <com.jayz.cet4.view.ui.panel.Panel
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomPanel"
+        android:paddingTop="4dip"
+	    panel:handle="@+id/panelHandle"
+	    panel:content="@+id/panelContent"
+	    panel:position="bottom"
+	    panel:animationDuration="500"
+	    panel:openedHandle="@drawable/bottom_switcher_expanded_background"
+	    panel:closedHandle="@drawable/bottom_switcher_collapsed_background"
+		panel:weight="75%p">
+        
+       	<Button
+			android:id="@+id/panelHandle" 
+			android:layout_gravity="right"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="33dip"/>
+        
+       	<LinearLayout
+			android:id="@+id/panelContent" 
+		    android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:background="#8470FF">
+            
+       	    <RadioGroup 
+       	        android:id="@+id/rgAnswerListen"
+       	        android:layout_width="wrap_content"
+       	        android:layout_height="wrap_content"
+       	        android:orientation="horizontal"
+       	        android:background="#8470FF">       	    
+       	        <RadioButton 
+       	            android:id="@+id/answerListen"
+	       	        android:layout_width="100dp"
+		            android:layout_height="40dp"
+		            android:textSize="20sp"
+		            android:gravity="center"
+		            android:button="@null"
+		            android:checked="true"
+		            android:text="答 案"
+		            android:textStyle="bold"
+	            	android:textColor="#eee"
+	            	android:layout_marginLeft="4dp"
+	           	    android:background="@drawable/select_topic_answer_type"/>
+       	         <RadioButton 
+       	            android:id="@+id/introductionListen"
+	       	        android:layout_width="100dp"
+		            android:layout_height="40dp"
+		            android:textSize="20sp"
+		            android:gravity="center"
+		            android:button="@null"
+		            android:text="详 解"
+		            android:textStyle="bold"
+	            	android:textColor="#eee"
+	            	android:layout_marginLeft="4dp"
+	           	    android:background="@drawable/select_topic_answer_type"/>
+       	         <RadioButton
+       	            android:id="@+id/conversationListen"
+	       	        android:layout_width="100dp"
+		            android:layout_height="40dp"
+		            android:textSize="20sp"
+		            android:gravity="center"
+		            android:button="@null"
+		            android:text="原 文"
+		            android:textStyle="bold"
+	            	android:textColor="#eee"
+	            	android:layout_marginLeft="4dp"
+	           	    android:background="@drawable/select_topic_answer_type"/>       	          	           	        
+       	    </RadioGroup>
+       	    
+       	    <ScrollView
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent">
+	       	    <TextView
+	       	        	android:id="@+id/tvAnswerContent" 
+		       	        android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:textSize="15sp"
+			            android:gravity="left"
+			            android:textStyle="bold"
+			            android:padding="4dp"
+		            	android:textColor="#eee"/>
+       	    </ScrollView>
+       	 </LinearLayout>
+       
+    </com.jayz.cet4.view.ui.panel.Panel>
+    
+
+</RelativeLayout>

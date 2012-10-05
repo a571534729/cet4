@@ -1,0 +1,183 @@
+<article>　　
+	<articleContent>The term e-commerce refers to all commercial transactions conducted over the Internet, including transactions by consumers and business-to-business transactions. Conceptually, e-commerce does not __67__ from well-known commercial offerings such as banking by phone, "mail order" catalogs, or sending a purchase order to supplier __68__ fax.E-commerce follows the same model __69__ in other business transactions; the difference __70__ in the details.
+	　　To a consumer, the most visible form of e-commerce consists __71__ online ordering. A customer begins with a catalog of possible items, __72__ an item, arranges a form of payment, and __73__ an order. Instead of a physical catalog, e-commerce arranges for catalogs to be __74__ on the Internet. Instead of sending an order on paper or by telephone, e-commerce arranges for orders to be sent __75__ a computer network. Finally, instead of sending a paper representation of payment such as a check, e-commerce __76__ one to send payment information electronically.
+	　　In the decade __77__ 1993, e-commerce grew from an __78__ novelty (新奇事物) to a mainstream business influence. In 1993, few __79__ had a web page, and __80__ a handful allowed one to order products or services online. Ten years __81__, both large and small businesses had web pages, and most __82__ users with the opportunity to place an order. __83__, many banks added online access, __84__ online banking and bill paying became __85__. More importantly, the value of goods and services __86__ over the Internet grew dramatically after 1997.</articleContent>
+	<subject>67.
+	　　<choice>A) distract</choice>
+		<choice>B) descend</choice>
+		<choice>C) differ</choice>
+		<choice>D) derive</choice>
+		<answer>67 B differ</answer>
+		<introduction>67.B differ
+选项中，常与from搭配的有differ和derive。根据上下文不难看出，上文先说的是电子商务与电话银行等商务形式没有本质区别，与下文”the difference lies in”（区别在于）相呼应。</introduction>
+	</subject>
+	<subject>68.
+	　　<choice>A) with</choice>
+		<choice>B) via</choice>
+		<choice>C) from</choice>
+		<choice>D) off</choice>
+		<answer>68 B via</answer>
+		<introduction>68.B via
+via fax：通过传真</introduction>
+	</subject>
+	<subject>69.
+	　　<choice>A) appeared</choice>
+		<choice>B) used</choice>
+		<choice>C) resorted</choice>
+		<choice>D) served</choice>
+		<answer>69 B used</answer>
+		<introduction>69.B used
+models used: 所采用的形式。选项中，appear为不及物动词，此处应选填一个及物动词的过去分词作后置定语。</introduction>
+	</subject>
+	<subject>70.
+	　　<choice>A) situates</choice>
+		<choice>B) lies</choice>
+		<choice>C) roots</choice>
+		<choice>D) locates</choice>
+		<answer>70 B lies</answer>
+		<introduction>70.B lies
+lie in: 在于</introduction>
+	</subject>
+	<subject>71.
+	　　<choice>A) on</choice>
+		<choice>B) of</choice>
+		<choice>C) for</choice>
+		<choice>D) to</choice>
+		<answer>71 B of</answer>
+		<introduction>71.B of
+consist of: 由…组成</introduction>
+	</subject>
+	<subject>72.
+	　　<choice>A) reflects</choice>
+		<choice>B) detects</choice>
+		<choice>C) protects</choice>
+		<choice>D) selects</choice>
+		<answer>72 D selects</answer>
+		<introduction>72.D selects
+select an item: 挑选商品</introduction>
+	</subject>
+	<subject>73.
+	　　<choice>A) sends in</choice>
+		<choice>B) puts out</choice>
+		<choice>C) stands for</choice>
+		<choice>D) carries away</choice>
+		<answer>73 A sends in</answer>
+		<introduction>73.A sends in
+send in: 递送; 呈报</introduction>
+	</subject>
+	<subject>74.
+	　　<choice>A) visible</choice>
+		<choice>B) responsible</choice>
+		<choice>C) feasible</choice>
+		<choice>D) sensible</choice>
+		<answer>74 A visible</answer>
+		<introduction>74.A visible
+visible: 看得见的；明显的。网上购物时，商品目录会在网上呈现在顾客眼前。</introduction>
+	</subject>
+	<subject>75.
+	　　<choice>A) beside</choice>
+		<choice>B) over</choice>
+		<choice>C) beyond</choice>
+		<choice>D) up</choice>
+		<answer>75 B over</answer>
+		<introduction>75.B over</introduction>
+	</subject>
+	<subject>76.
+	　　<choice>A) appeals</choice>
+		<choice>B) admits</choice>
+		<choice>C) advocates</choice>
+		<choice>D) allows</choice>
+		<answer>76 D allows</answer>
+		<introduction>76.D allows
+其中，admit做及物动词时，一般作“允许进入；承认；可容纳”解。allow sb to do，常用词组，容许某人做某事</introduction>
+	</subject>
+	<subject>77.
+	　　<choice>A) after</choice>
+		<choice>B) behind</choice>
+		<choice>C) until</choice>
+		<choice>D) toward</choice>
+		<answer>77 A after</answer>
+		<introduction>77.A after</introduction>
+	</subject>
+	<subject>78.
+	　　<choice>A) optional</choice>
+		<choice>B) invalid</choice>
+		<choice>C) occasional</choice>
+		<choice>D) insignificant</choice>
+		<answer>78 D insignificant</answer>
+		<introduction>78.D insignificant
+与下文的mainstream相对应。</introduction>
+	</subject>
+	<subject>79.
+	　　<choice>A) communities</choice>
+		<choice>B) corps</choice>
+		<choice>C) corporations</choice>
+		<choice>D) compounds</choice>
+		<answer>79 C corporations</answer>
+		<introduction>
+79.C corporations
+与下文businesses相呼应。</introduction>
+	</subject>
+	<subject>80.
+	　　<choice>A) largely</choice>
+		<choice>B) slightly</choice>
+		<choice>C) solely</choice>
+		<choice>D) only</choice>
+		<answer>80 D only</answer>
+		<introduction>80.D only</introduction>
+	</subject>
+	<subject>81.
+	　　<choice>A) lately</choice>
+		<choice>B) later</choice>
+		<choice>C) late</choice>
+		<choice>D) latter</choice>
+		<answer>81 B later</answer>
+		<introduction>81.B later
+注意，latter意为，“后面的，后者的”。</introduction>
+	</subject>
+	<subject>82.
+	　　<choice>A) offered</choice>
+		<choice>B) convinced</choice>
+		<choice>C) equipped</choice>
+		<choice>D) provided</choice>
+		<answer>82 D provided</answer>
+		<introduction>82.D provided
+provide sb with sth，固定词组，为某人提供某物。</introduction>
+	</subject>
+	<subject>83.
+	　　<choice>A) Instead</choice>
+		<choice>B) Nevertheless</choice>
+		<choice>C) However</choice>
+		<choice>D) Besides</choice>
+		<answer>83 D besides</answer>
+		<introduction>83.D besides
+besides意为，“此外，除此之外”。</introduction>
+	</subject>
+	<subject>84.
+	　　<choice>A) and</choice>
+		<choice>B) or</choice>
+		<choice>C) but</choice>
+		<choice>D) though</choice>
+		<answer>84 A and</answer>
+		<introduction>84.A and
+顺承关系，用and。</introduction>
+	</subject>
+	<subject>85.
+	　　<choice>A) different</choice>
+		<choice>B) flexible</choice>
+		<choice>C) widespread</choice>
+		<choice>D) productive</choice>
+		<answer>85 C widespread</answer>
+		<introduction>85.C widespread
+网上银行流行起来了。widespread，分布广泛的。</introduction>
+	</subject>
+	<subject>86.
+	　　<choice>A) acquired</choice>
+		<choice>B) adapted</choice>
+		<choice>C) practiced</choice>
+		<choice>D) proceeded</choice>
+		<answer>86 A acquired</answer>
+		<introduction>86.A acquired
+acquire，及物动词，意为，“获得”。网上购物时，顾客能够获得更优质的商品和更周到的服务。</introduction>
+	</subject>
+</article>
