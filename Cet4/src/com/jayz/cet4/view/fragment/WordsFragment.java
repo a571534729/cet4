@@ -1,14 +1,14 @@
 package com.jayz.cet4.view.fragment;
 
-import com.jayz.R;
-
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class WordsFragment extends Fragment{
+import com.jayz.R;
+import com.jayz.cet4.view.base.BaseFragment;
+
+public class WordsFragment extends BaseFragment{
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

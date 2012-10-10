@@ -1,21 +1,21 @@
 package com.jayz.cet4.view;
 
-import com.jayz.R;
-import com.jayz.cet4.view.fragment.GrammarFragment;
-import com.jayz.cet4.view.fragment.MoreFragment;
-import com.jayz.cet4.view.fragment.TopicFragment;
-import com.jayz.cet4.view.fragment.WordsFragment;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
 
-public class MainActivity extends FragmentActivity{
+import com.jayz.R;
+import com.jayz.cet4.view.base.BaseFragmentActivity;
+import com.jayz.cet4.view.fragment.GrammarFragment;
+import com.jayz.cet4.view.fragment.MoreFragment;
+import com.jayz.cet4.view.fragment.TopicFragment;
+import com.jayz.cet4.view.fragment.WordsFragment;
+
+public class MainActivity extends BaseFragmentActivity{
 
     private TabHost tabhost;
     private RadioGroup tabGroup;

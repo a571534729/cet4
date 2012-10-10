@@ -1,36 +1,19 @@
 package com.jayz.cet4.view.ui.topicwidegt;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.content.Context;
-import android.os.Handler;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.jayz.R;
-import com.jayz.cet4.common.LogUtil;
-import com.jayz.cet4.data.ListeningDAO;
-import com.jayz.cet4.data.ReadingDAO;
 import com.jayz.cet4.data.WritingOrTranslationDAO;
 import com.jayz.cet4.model.Article;
-import com.jayz.cet4.model.Question;
 import com.jayz.cet4.view.ui.panel.EasingType.Type;
 import com.jayz.cet4.view.ui.panel.ExpoInterpolator;
 import com.jayz.cet4.view.ui.panel.Panel;

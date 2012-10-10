@@ -13,12 +13,6 @@ public class Constants {
 	/** 资源路径 */
 	public static final String PATH_RES=PATH_APP+"/res";
 	
-	/**SD不存在或者加载出错提示*/
-	public static final String SDERROR="您的SD卡不存在或者存在错误加载,请查看!!";
-	/**网络不存在的提示*/
-	public static final String NETERROR="亲,你的网络不大好,请稍后再试!!";
-	/**下载出错的提示*/
-	public static final String DOWNERROR="ORZ,下载出错,正在尝试重新下载!!";
 	/**
 	 * 真题里类型的标记
 	 * */
@@ -47,20 +41,20 @@ public class Constants {
 	public static class bundleKey{
 		/** 真题信息 **/
 		public static final String topicItem="topicItem";
-		/** 异常信息 */
-		public static final String errorMsg="errorMsg";
 		/** 需要弹出的信息*/
 		public static final String toastMag="toastMsg";
+		/** 通用业务异常 */
+		public static final String exception="exception";
 	}
 	
 	/** message.what */
 	public static class msgWhat{
-		/** 异常消息 */
-		public static final int error=-200;
 		/** 下载状态改变*/
 		public static final int downstate_changed=2000;
 		/** toast*/
 		public static final int toast=3000;
+		/** 通用业务异常 */
+		public static final int exception=-1000;
 	}
 	
 	/** sharedPreference 相关key */

@@ -10,7 +10,6 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -22,9 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jayz.R;
-import com.jayz.cet4.common.LogUtil;
 import com.jayz.cet4.data.ClozeDAO;
-import com.jayz.cet4.data.ListeningDAO;
 import com.jayz.cet4.model.Article;
 import com.jayz.cet4.model.Question;
 import com.jayz.cet4.view.ui.panel.EasingType.Type;

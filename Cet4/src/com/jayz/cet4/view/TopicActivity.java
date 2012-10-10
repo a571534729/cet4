@@ -2,7 +2,6 @@ package com.jayz.cet4.view;
 
 import java.io.IOException;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,13 +17,15 @@ import android.widget.RelativeLayout;
 import com.jayz.R;
 import com.jayz.cet4.common.Constants;
 import com.jayz.cet4.common.IOUtil;
+import com.jayz.cet4.common.exception.TradException;
+import com.jayz.cet4.view.base.BaseActivity;
 import com.jayz.cet4.view.ui.topicwidegt.ClozeContent;
 import com.jayz.cet4.view.ui.topicwidegt.ListeningContent;
 import com.jayz.cet4.view.ui.topicwidegt.QuestionContent;
 import com.jayz.cet4.view.ui.topicwidegt.SelectingContent;
 import com.jayz.cet4.view.ui.topicwidegt.WritingOrTranslationContent;
 
-public class TopicActivity extends Activity{
+public class TopicActivity extends BaseActivity{
 	
 	public static final int OpenAnimation = 100;
 	public static final int CloseAnimation = 101;
@@ -205,7 +206,11 @@ public class TopicActivity extends Activity{
 				break;
 			}			
 		} catch (IOException e) {
-			e.printStackTrace();
+			try {
+				throw new TradException(e);
+			} catch (TradException e1) {
+				handleException(e1);
+			}
 		}
 		return content;
 	}

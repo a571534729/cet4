@@ -1,25 +1,11 @@
 package com.jayz.cet4.view.fragment;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.zip.ZipException;
-
-import com.jayz.R;
-import com.jayz.cet4.common.Constants;
-import com.jayz.cet4.common.DownLoader;
-import com.jayz.cet4.common.IOUtil;
-import com.jayz.cet4.common.LogUtil;
-import com.jayz.cet4.common.NetWorkUtil;
-import com.jayz.cet4.common.UnZipUtil;
-import com.jayz.cet4.data.TopicItemsDAO;
-import com.jayz.cet4.model.TopicItem;
-import com.jayz.cet4.view.TopicActivity;
-import com.jayz.cet4.view.ui.CustAlertDialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -28,7 +14,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -41,7 +26,21 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class TopicFragment extends Fragment{
+import com.jayz.R;
+import com.jayz.cet4.common.Constants;
+import com.jayz.cet4.common.DownLoader;
+import com.jayz.cet4.common.IOUtil;
+import com.jayz.cet4.common.LogUtil;
+import com.jayz.cet4.common.NetWorkUtil;
+import com.jayz.cet4.common.UnZipUtil;
+import com.jayz.cet4.common.exception.TradException;
+import com.jayz.cet4.data.TopicItemsDAO;
+import com.jayz.cet4.model.TopicItem;
+import com.jayz.cet4.view.TopicActivity;
+import com.jayz.cet4.view.base.BaseFragment;
+import com.jayz.cet4.view.ui.CustAlertDialog;
+
+public class TopicFragment extends BaseFragment{
 	
 	public static String TOPIC_XML = "config/topic_items.xml";
 	private Context context;
@@ -118,7 +117,7 @@ public class TopicFragment extends Fragment{
 			String targetPath = Constants.PATH_RES +"/"+
 					downloadAdd.substring(downloadAdd.lastIndexOf(SUBSTRING_WORD)+1); 
 			//初始化下载器
-			DownLoader d = new DownLoader(handler,i,targetPath,downloadAdd){
+			DownLoader d = new DownLoader(context,handler,i,targetPath,downloadAdd){
 				@Override
 				protected void onDownloadBegin(long filesize) {
 					super.onDownloadBegin(filesize);
@@ -175,10 +174,6 @@ public class TopicFragment extends Fragment{
 //			case msg_what_exit:
 //				isExit = false;
 //				return;
-			case Constants.msgWhat.error:
-				String tip = msg.getData().getString(Constants.bundleKey.errorMsg);
-				Toast.makeText(context, tip, Toast.LENGTH_SHORT).show();
-				break;
 			case Constants.msgWhat.downstate_changed:
 				int index=msg.arg1;
 				int downState=msg.arg2;
@@ -254,7 +249,7 @@ public class TopicFragment extends Fragment{
 			 */
 			// 判断SD卡操作，错误返回提示
 			if (!IOUtil.checkSDCard()) {
-				Toast.makeText(context, Constants.SDERROR,
+				Toast.makeText(context, getResources().getString(R.string.exception_sdcard),
 						Toast.LENGTH_SHORT).show();
 				return;
 			}
@@ -300,14 +295,14 @@ public class TopicFragment extends Fragment{
 	 */
 	private void downloadTopic(final DownLoader downloader,
 			final TopicItem topicItem) {
-		LogUtil.e(NetWorkUtil.isOnline(context)+"");
+		LogUtil.i(NetWorkUtil.isOnline(context)+"");
 		if (!NetWorkUtil.isOnline(context)) {
 			Toast.makeText(context,
-					Constants.NETERROR, Toast.LENGTH_SHORT)
+					getString(R.string.exception_net), Toast.LENGTH_SHORT)
 					.show();
 			return;
 		}
-		LogUtil.e(NetWorkUtil.getAPNType(context)+"");
+		LogUtil.i(NetWorkUtil.getAPNType(context)+"");
 		//当网络不是wifi时提示是否下载
 		if (NetWorkUtil.getAPNType(context) != 1) {
 			String cancel="算了";
@@ -328,7 +323,11 @@ public class TopicFragment extends Fragment{
 						new Thread(){								
 							@Override
 							public void run() {
-								downloader.download();												
+								try {
+									downloader.download();
+								} catch (TradException e) {
+									handleException(e);
+								}												
 							};								
 						}.start();
 					}
@@ -338,7 +337,11 @@ public class TopicFragment extends Fragment{
 			new Thread() {
 				@Override
 				public void run() {
-					downloader.download();
+					try {
+						downloader.download();
+					} catch (TradException e) {
+						handleException(e);
+					}
 				};
 			}.start();
 		}
@@ -352,7 +355,7 @@ public class TopicFragment extends Fragment{
 	private void updateTopicState(int status, final int topicIndex) {
 		TopicViewHolder topicViewHolder=new TopicViewHolder();
 		ViewGroup topicView = topicViews.get(topicIndex);
-		LogUtil.e(topicIndex+"");
+		LogUtil.i(topicIndex+"");
 		//若topicView的tag与书本索引不等 说明该topicView不是要更新的view 这里是为了防止回收再利用的topicView接收到下载线程的更新请求
 		if(((TopicViewHolder)topicView.getTag()).topicIndex!=topicIndex){
 			return;
@@ -397,19 +400,23 @@ public class TopicFragment extends Fragment{
 			if(downloader.getPercent()>=0&&downloader.getPercent()<=100){
 				percent.setText(downloader.getPercent()+"%");
 			}else{
-				Toast.makeText(context, Constants.DOWNERROR,Toast.LENGTH_LONG ).show();
+				Toast.makeText(context, getString(R.string.exception_download),Toast.LENGTH_LONG ).show();
 				downloader.deleteFile();
 				downloader.setCurrentFileSize(0);
 				if(operation){
 					if(IOUtil.checkSDCard()==false){
-						Toast.makeText(context,Constants.SDERROR, Toast.LENGTH_LONG).show();
+						Toast.makeText(context,getString(R.string.exception_sdcard), Toast.LENGTH_LONG).show();
 					}else if(NetWorkUtil.isOnline(context)==false){
-						Toast.makeText(context, Constants.NETERROR, Toast.LENGTH_LONG).show();
+						Toast.makeText(context, getString(R.string.exception_net), Toast.LENGTH_LONG).show();
 					}else{
 						new Thread(){								
 							@Override
 							public void run() {
-								downloader.download();												
+								try {
+									downloader.download();
+								} catch (TradException e) {
+									handleException(e);
+								}												
 							};								
 						}.start();
 					}
@@ -437,12 +444,12 @@ public class TopicFragment extends Fragment{
 						String destDir = Constants.PATH_RES+"/";
 						try {
 							zipUtil.readByApacheZipFile(zipPath, destDir);
-						} catch (FileNotFoundException e) {
-							LogUtil.e(e);
-						} catch (ZipException e) {
-							LogUtil.e(e);
 						} catch (IOException e) {
-							LogUtil.e(e);
+							try {
+								throw new TradException(getString(R.string.exception_decompression), e);
+							} catch (TradException e1) {
+								handleException(e1);
+							}
 						}
 						Message msg=handler.obtainMessage(Constants.msgWhat.downstate_changed);
 						msg.arg1=topicIndex;

@@ -8,8 +8,13 @@ import java.io.RandomAccessFile;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import android.content.Context;
+import android.content.res.Resources.NotFoundException;
 import android.os.Handler;
 import android.os.Message;
+
+import com.jayz.R;
+import com.jayz.cet4.common.exception.TradException;
 
 /**
  * 
@@ -39,8 +44,10 @@ public class DownLoader {
 	private long totalFileSize;
 	/**下载的文件的链接*/
 	private String url;
+	private Context context;
 	
-	public DownLoader(Handler handler,int downloadTag,String targetPath,String url) {
+	public DownLoader(Context context,Handler handler,int downloadTag,String targetPath,String url) {
+		this.context=context;
 		this.handler = handler;
 		this.downloadTag = downloadTag;
 		this.targetPath = targetPath;
@@ -51,8 +58,10 @@ public class DownLoader {
 		}
 	}
 	
-	/**下载方法*/
-	public void download(){
+	/**下载方法
+	 * @throws TradException 
+	 * @throws NotFoundException */
+	public void download() throws TradException{
 		sendMsg(DOWN_BEGIN);
 		isStop = false;
 		File localFile = getLocalFile();
@@ -69,7 +78,7 @@ public class DownLoader {
 				localFile.createNewFile();
 				currentFileSize = 0;
 			} catch (IOException e) {
-				LogUtil.e("本地文件不存在");
+				throw new TradException(context.getResources().getString(R.string.exception_file_not_found),e);
 			}
 		}else{
 			currentFileSize = localFile.length();
@@ -89,11 +98,8 @@ public class DownLoader {
 			}
 			LogUtil.i("connected...........");
 		} catch (IOException e) {
-			Message msg=handler.obtainMessage(Constants.msgWhat.error);
-			msg.getData().putString(Constants.bundleKey.errorMsg, "网络连接有异常,请重试");
-			handler.sendMessage(msg);
-			LogUtil.e(e);
 			conn.disconnect();
+			throw new TradException(context.getResources().getString(R.string.exception_net),e);
 		}
 		//写输出流到本地文件中
 		if(is!=null){
@@ -117,7 +123,7 @@ public class DownLoader {
 					}
 				}
 			} catch (IOException e) {
-				LogUtil.e(e);
+				throw new TradException(context.getResources().getString(R.string.exception_net),e);
 			}finally{
 				conn.disconnect();
 				try {
