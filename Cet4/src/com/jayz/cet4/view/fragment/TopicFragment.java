@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -18,6 +19,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -226,7 +228,7 @@ public class TopicFragment extends BaseFragment{
 			holder.tvTopicTitle.setText(topicItems.get(position).getName());
 			holder.topicView.setOnClickListener(new TopicItemOnClickListenner(position));
 			holder.ivDownload.setOnClickListener(new TopicItemOnClickListenner(position));			
-			updateTopicState(downloadStates.get(position), holder.topicIndex, holder, false);
+			updateTopicState(downloadStates.get(position), holder.topicIndex, holder, true);
 			return convertView;
 		}
 				
@@ -355,7 +357,6 @@ public class TopicFragment extends BaseFragment{
 	private void updateTopicState(int status, final int topicIndex) {
 		TopicViewHolder topicViewHolder=new TopicViewHolder();
 		ViewGroup topicView = topicViews.get(topicIndex);
-		LogUtil.i(topicIndex+"");
 		//若topicView的tag与书本索引不等 说明该topicView不是要更新的view 这里是为了防止回收再利用的topicView接收到下载线程的更新请求
 		if(((TopicViewHolder)topicView.getTag()).topicIndex!=topicIndex){
 			return;
@@ -383,7 +384,7 @@ public class TopicFragment extends BaseFragment{
 		
 		switch(status){
 		case DownLoader.DOWN_PAUSE:
-			percent.setText(downloader.getPercent()+"%");
+			percent.setText("继续下载");
 			downloadImg.setBackgroundResource(R.drawable.pause);
 			topicTitle.setText(topicItem.getName());
 			break;
@@ -396,7 +397,12 @@ public class TopicFragment extends BaseFragment{
 //			if(image1.getAnimation()==null){
 //				downAnimation(image1, image2,bookIndex);
 //			}
-			downloadImg.setBackgroundResource(R.drawable.down);
+			downloadImg.setBackgroundResource(R.drawable.downloading);
+			AnimationDrawable _animation = downloadAnimation(downloadImg);
+			if(_animation.isRunning()){
+				_animation.stop();
+			}
+			_animation.start();
 			if(downloader.getPercent()>=0&&downloader.getPercent()<=100){
 				percent.setText(downloader.getPercent()+"%");
 			}else{
@@ -462,6 +468,13 @@ public class TopicFragment extends BaseFragment{
 		default:
 			break;
 		}
+	}
+	
+	//下载动画，渐变动画 
+	private AnimationDrawable downloadAnimation(ImageView image){
+		image.setBackgroundResource(R.anim.download_animation);
+		AnimationDrawable _animation = (AnimationDrawable)image.getBackground();
+		return _animation;
 	}
 	
 	private static class TopicViewHolder{
