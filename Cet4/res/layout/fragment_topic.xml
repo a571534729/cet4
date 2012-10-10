@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:layout_height="fill_parent">
     
-    <RelativeLayout
-	    android:id="@+id/layout_top"
-	    android:layout_width="fill_parent"
-	    android:layout_height="40dip"
-	    android:background="#999999" >
-	    
-	    <TextView
-	      	style="@style/layout_wrap"
-	        android:layout_centerInParent="true"
-	        android:text="真题"
-	        android:textColor="@android:color/white"
-	        android:textSize="20sp" />
-	    
-	</RelativeLayout>
+    <TextView 
+        android:id="@+id/titleTopic"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="真 题 库"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"/>    
+    
+	<TextView 
+	    android:id="@+id/famousTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I feel strongly that I can make it."
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/titleTopic"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="6dp"/>
+	
 	<RelativeLayout 
-	    android:id="@+id/layout_content"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:background="#FFFFFF">
-	    <ScrollView 
-	        style="@style/layout_wrap">
-		    <TextView
-		        android:id="@+id/article_content"
-		      	style="@style/layout_wrap"/>
-	    </ScrollView>
-	</RelativeLayout>
+	    android:id="@+id/rlTopicContent"
+	    android:layout_width="200dp"
+	    android:layout_height="200dp"
+	    android:layout_marginLeft="100dp"
+	    android:layout_marginTop="180dp">
+	        <ListView 
+	            android:id="@+id/lvTopicContent"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:divider="@drawable/line"
+	            android:dividerHeight="1dp"
+	            android:scrollbars="none"
+	            android:cacheColorHint="#00000000"/>
+	</RelativeLayout> 
 
-</LinearLayout>
+</RelativeLayout>

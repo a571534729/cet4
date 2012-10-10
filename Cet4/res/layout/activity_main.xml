@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
  	        style="@style/layout_full"
- 	        android:orientation="vertical">
+ 	        android:orientation="vertical"
+ 	        android:background="@drawable/background">
     
  	<TabHost 
  	    android:id="@android:id/tabhost"
@@ -20,14 +21,14 @@
                 <LinearLayout
                     android:id="@+id/linearlayout"
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:orientation="vertical" >
 
                     <fragment
                         android:id="@+id/content_fragment"
-                        android:name="com.jayz.cet4.view.ui.WordsFragment"
+                        android:name="com.jayz.cet4.view.fragment.WordsFragment"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="fill_parent"/>
 
                 </LinearLayout>
             </FrameLayout>
@@ -55,7 +56,6 @@
 			            android:layout_height="wrap_content"
 			            android:layout_gravity="bottom"
 			            android:gravity="center_vertical"
-			            android:background="@drawable/bottombg"
 			            android:orientation="horizontal">
 			            
 			               <RadioButton
@@ -63,7 +63,8 @@
 	                           android:layout_width="wrap_content"
 	                           android:button="@null"
 	                           android:background="@drawable/tab_selector_words"
-	                           android:layout_marginLeft="12dp"
+	                           android:gravity="bottom"
+	                           android:layout_marginLeft="3dp"
 	                           android:checked="true" />
 	
 	                       <RadioButton
@@ -71,21 +72,32 @@
 	                           android:layout_width="wrap_content"
 	                           android:button="@null"
 	                           android:background="@drawable/tab_selector_topic"
-	                           android:layout_marginLeft="12dp"/>
+	                           android:gravity="bottom"
+	                           android:layout_marginLeft="3dp"/>
 	
 	                       <RadioButton
 	                           android:id="@+id/radio_grammar"
 	                           android:layout_width="wrap_content"
 	                           android:button="@null"
 	                           android:background="@drawable/tab_selector_grammar"
-	                           android:layout_marginLeft="12dp"/>
+	                           android:gravity="bottom"
+	                           android:layout_marginLeft="3dp"/>
 	
+						   <RadioButton
+	                           android:id="@+id/radio_read"
+	                           android:layout_width="wrap_content"
+	                           android:button="@null"
+	                           android:background="@drawable/tab_selector_read"
+	                           android:gravity="bottom"
+	                           android:layout_marginLeft="3dp"/>
+	                       
 	                       <RadioButton
 	                           android:id="@+id/radio_more"
 	                           android:layout_width="wrap_content"
 	                           android:button="@null"
 	                           android:background="@drawable/tab_selector_more"
-	                           android:layout_marginLeft="12dp"/>
+	                           android:gravity="bottom"
+	                           android:layout_marginLeft="3dp"/>
 	       
 			        </RadioGroup>
 			    </RelativeLayout>

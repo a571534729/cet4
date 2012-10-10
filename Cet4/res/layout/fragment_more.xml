@@ -4,19 +4,5 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
     
-    <RelativeLayout
-	    android:id="@+id/layout_top"
-	    android:layout_width="fill_parent"
-	    android:layout_height="40dip"
-	    android:background="#999999" >
-	    
-	    <TextView
-	      	style="@style/layout_wrap"
-	        android:layout_centerInParent="true"
-	        android:text="更多"
-	        android:textColor="@android:color/white"
-	        android:textSize="20sp" />
-	
-	</RelativeLayout>
 
 </LinearLayout>

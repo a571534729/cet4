@@ -5,17 +5,12 @@ import com.jayz.cet4.view.fragment.GrammarFragment;
 import com.jayz.cet4.view.fragment.MoreFragment;
 import com.jayz.cet4.view.fragment.TopicFragment;
 import com.jayz.cet4.view.fragment.WordsFragment;
-import com.jayz.cet4.view.ui.panel.EasingType.Type;
-import com.jayz.cet4.view.ui.panel.ExpoInterpolator;
-import com.jayz.cet4.view.ui.panel.Panel;
-import com.jayz.cet4.view.ui.panel.Panel.OnPanelListener;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
@@ -64,10 +59,14 @@ public class MainActivity extends FragmentActivity{
 				break;
 			case R.id.radio_topic:
 				tabhost.setCurrentTabByTag("topic");
-				changeFragment(new TopicFragment(), fragmentManager);
+				changeFragment(new TopicFragment(MainActivity.this), fragmentManager);
 				break;
 			case R.id.radio_grammar:
 				tabhost.setCurrentTabByTag("grammar");
+				changeFragment(new GrammarFragment(), fragmentManager);				
+				break;
+			case R.id.radio_read:
+				tabhost.setCurrentTabByTag("read");
 				changeFragment(new GrammarFragment(), fragmentManager);				
 				break;
 			case R.id.radio_more:

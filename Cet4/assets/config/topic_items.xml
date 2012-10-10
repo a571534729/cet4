@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TopicItems>
+	<!-- <TopicItem id="单个真题的id">
+		<Name>标题名称</Name>
+		<ImageAdd>书本的图片地址统一放在assets/img,格式为img/xxx.png</ImageAdd>
+		<DownLoadState>书本下载的状态,0表示未下载，1表示正在下载，2表示下载完毕</DownLoadState>
+	</TopicItem> -->
+	<TopicItem id="topic0">
+		<Name>2012年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_1_4.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic1">
+		<Name>2012年12月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_5_8.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic2">
+		<Name>2011年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_9_12.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic3">
+		<Name>2011年12月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_13_16.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic4">
+		<Name>2010年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_17_20.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic5">
+		<Name>2010年12月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_1_21_25.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic6">
+		<Name>2009年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_2_26_29.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic7">
+		<Name>2009年12月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_2_30_33.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic8">
+		<Name>2008年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_2_34_37.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic9">
+		<Name>2008年12月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_2_38_41.zip]]></DownLoadAdd>
+	</TopicItem>
+	
+	<TopicItem id="topic10">
+		<Name>2007年06月真题及详解</Name>
+		<DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=djdry_2_42_45.zip]]></DownLoadAdd>
+	</TopicItem>
+
+</TopicItems>
