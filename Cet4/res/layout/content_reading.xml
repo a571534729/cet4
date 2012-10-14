@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+           
+	        <!-- 播放器 -->
+    <RelativeLayout android:id="@+id/rlAudio" android:layout_width="fill_parent" android:layout_height="48dp"
+        android:background="@drawable/bottom_bg" android:paddingTop="4dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@+id/llSeekBar" android:orientation="horizontal"
+            android:layout_width="wrap_content"	android:layout_height="wrap_content">
+            <Button android:id="@+id/btnPlay" android:background="@drawable/sel_play"
+                android:layout_width="35dp" android:layout_height="35dp"
+	        	android:layout_marginLeft="4dp"/>
+            <TextView android:id="@+id/tvCurrentTime" android:background="@android:color/transparent"
+                android:text="00:00" android:textColor="@color/white" android:textSize="10sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical"/>
+            <SeekBar android:id="@+id/sbAudio" android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@drawable/thumb_normal" android:layout_gravity="center_vertical"
+                android:layout_width="165dp" android:layout_height="19dp"
+                android:layout_marginLeft="8dp" android:layout_marginRight="8dp"/>
+            <TextView android:id="@+id/tvTotalTime" android:background="@android:color/transparent"
+                android:text="00:00" android:textColor="@color/white" android:textSize="10sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical"/>
+            <TextView android:id="@+id/tvCurrentType" android:background="@android:color/transparent"
+                android:text="单词" android:textColor="@color/white" android:textSize="12sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:gravity="center_vertical" android:layout_marginLeft="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="fill_parent"
+   	    android:layout_above="@id/rlAudio"
+   	    android:orientation="vertical">
+	    <RelativeLayout
+	        android:id="@+id/llReadingItemTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:background="@android:color/darker_gray">
+	        
+	        <TextView android:id="@+id/readingItemTitle"
+	            android:layout_centerInParent="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:textSize="28sp"
+	            android:textStyle="bold"
+	            android:textColor="#eee"
+	            android:text="特牛牛"
+	            android:background="#329999"/>	        
+	    </RelativeLayout>
+	    
+		<HorizontalScrollView 
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:fadingEdge="@null"
+			android:scrollbars="none"
+			android:background="#555555"
+			android:id="@+id/horizontalScrollView">
+			<RelativeLayout 
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#33b5e5">
+					<RadioGroup
+						android:id="@+id/radioGroup"
+						android:layout_width="fill_parent"
+						android:layout_height="49dp"
+						android:orientation="horizontal"
+						android:layout_alignParentTop="true">
+						<RadioButton
+							style="@style/radioButton"
+							android:text="原文听读"
+							android:id="@+id/btn1"/>
+						<RadioButton 
+							style="@style/radioButton"
+							android:text="译文赏析"
+							android:id="@+id/btn2"/>
+						<RadioButton 
+							style="@style/radioButton"
+							android:text="词汇识记"
+							android:id="@+id/btn3"/>
+						<RadioButton 
+							style="@style/radioButton"
+							android:text="短语详解"
+							android:id="@+id/btn4"/>
+					</RadioGroup>
+					<ImageView
+						android:id="@+id/tagImg"
+						android:layout_width="100dp"
+						android:layout_height="4dp"
+						android:background="#33b5e5"
+						android:layout_alignParentBottom="true"/>
+				</RelativeLayout>
+		</HorizontalScrollView>
+	    
+		<android.support.v4.view.ViewPager
+			android:id="@+id/readingPager"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"/>
+		
+	  <!--   <ScrollView
+    	    android:id="@+id/readingArticleSV"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@color/white">
+		   	<TextView android:id="@+id/readingItemContent"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:textSize="18sp"
+		            android:textStyle="bold"
+		            android:textColor="@color/black"/>	
+	    </ScrollView> -->
+	 </LinearLayout>
+		    
+</RelativeLayout>

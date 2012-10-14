@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reading>
+	<!-- <TopicItem id="单个语法的id">
+		<Name>标题名称</Name>
+		<ImageAdd>书本的图片地址统一放在assets/img,格式为img/xxx.png</ImageAdd>
+		<DownLoadState>书本下载的状态,0表示未下载，1表示正在下载，2表示下载完毕</DownLoadState>
+	</TopicItem> -->
+	<ReadingSort id="reading0">
+		<Name>voa标准英语</Name>
+		<ReadingItems>
+			<ReadingItem id="reading0Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/voa/reading1.zip]]></DownLoadAdd>
+			    <ItemName>1.VOA Interview with Aung San Suu Kyi</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading0Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/voa/reading2.zip]]></DownLoadAdd>
+			    <ItemName>2.Homeless Female Vets Get Unique Final Salute</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading0Item2">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/voa/reading3.zip]]></DownLoadAdd>
+			    <ItemName>3.Reality of Mormon Life More Complex Than Romney Image</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading0Item3">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=reading/voa/reading4.zip]]></DownLoadAdd>
+			    <ItemName>4.Order to Free Slaves 'Beginning of America Really Becoming America'</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading0Item4">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=reading/voa/reading5.zip]]></DownLoadAdd>
+			    <ItemName>5.Journalists Need New Ways to Stay Safe</ItemName>
+			</ReadingItem>			
+		</ReadingItems>
+	</ReadingSort>
+	
+	<ReadingSort id="reading1">
+		<Name>BBC News</Name>
+		<ReadingItems>
+			<ReadingItem id="reading1Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/bbcnews/reading1.zip]]></DownLoadAdd>
+			    <ItemName>1.美国失业率降至4年来最低水平</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading1Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/bbcnews/reading2.zip]]></DownLoadAdd>
+			    <ItemName>2.委内瑞拉总统查韦斯谋求第三次连任</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading1Item2">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/bbcnews/reading3.zip]]></DownLoadAdd>
+			    <ItemName>3.葡萄牙政府宣布减赤增税方案</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading1Item3">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/bbcnews/reading4.zip]]></DownLoadAdd>
+			    <ItemName>4.西方制裁让伊朗货币大幅贬值</ItemName>
+			</ReadingItem>
+			<ReadingItem id="reading1Item4">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/reading/bbcnews/reading5.zip]]></DownLoadAdd>
+			    <ItemName>5.香港两船相撞 造成多人失踪</ItemName>
+			</ReadingItem>			
+		</ReadingItems>
+	</ReadingSort>
+</Reading>

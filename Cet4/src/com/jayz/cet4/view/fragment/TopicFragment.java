@@ -297,14 +297,12 @@ public class TopicFragment extends BaseFragment{
 	 */
 	private void downloadTopic(final DownLoader downloader,
 			final TopicItem topicItem) {
-		LogUtil.i(NetWorkUtil.isOnline(context)+"");
 		if (!NetWorkUtil.isOnline(context)) {
 			Toast.makeText(context,
 					getString(R.string.exception_net), Toast.LENGTH_SHORT)
 					.show();
 			return;
 		}
-		LogUtil.i(NetWorkUtil.getAPNType(context)+"");
 		//当网络不是wifi时提示是否下载
 		if (NetWorkUtil.getAPNType(context) != 1) {
 			String cancel="算了";
@@ -385,7 +383,7 @@ public class TopicFragment extends BaseFragment{
 		switch(status){
 		case DownLoader.DOWN_PAUSE:
 			percent.setText("继续下载");
-			downloadImg.setBackgroundResource(R.drawable.pause);
+			downloadImg.setBackgroundResource(R.drawable.pause1);
 			topicTitle.setText(topicItem.getName());
 			break;
 		case DownLoader.DOWN_BEGIN:

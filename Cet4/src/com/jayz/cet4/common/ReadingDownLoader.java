@@ -15,6 +15,7 @@ import android.os.Message;
 
 import com.jayz.R;
 import com.jayz.cet4.common.exception.TradException;
+import com.jayz.cet4.model.ReadingItem;
 
 /**
  * 
@@ -22,7 +23,7 @@ import com.jayz.cet4.common.exception.TradException;
  *用于下载的下载类，包括下载，删除等操作
  */
 
-public class DownLoader {
+public class ReadingDownLoader {
 	/** 下载状态：暂停*/
 	public static final int DOWN_PAUSE=0;
 	/** 下载状态：正在下载*/
@@ -36,7 +37,7 @@ public class DownLoader {
 	/** 下载状态：完成  解压缩状态，开始解压*/
 	public static final int DOWN_COMPLETE=5;
 	/**标记某一个下载状态*/
-	private int downloadTag;
+	private ReadingItem downloadTag;
 	private Handler handler;
 	private boolean isStop=true;
 	private String targetPath;
@@ -46,7 +47,7 @@ public class DownLoader {
 	private String url;
 	private Context context;
 	
-	public DownLoader(Context context,Handler handler,int downloadTag,String targetPath,String url) {
+	public ReadingDownLoader(Context context,Handler handler,ReadingItem downloadTag,String targetPath,String url) {
 		this.context=context;
 		this.handler = handler;
 		this.downloadTag = downloadTag;
@@ -221,8 +222,8 @@ public class DownLoader {
 	
 	/** 下载时所响应的操作消息*/
 	private void sendMsg(int downState){
-		Message msg = handler.obtainMessage(Constants.msgWhat.downstate_changed);		
-		msg.arg1=this.downloadTag;
+		Message msg = handler.obtainMessage(Constants.msgWhat.downstate_changed);
+		msg.obj = downloadTag;
 		msg.arg2=downState;
 		handler.sendMessage(msg);
 	}

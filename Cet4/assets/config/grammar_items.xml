@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grammar>
+	<!-- <TopicItem id="单个语法的id">
+		<Name>标题名称</Name>
+		<ImageAdd>书本的图片地址统一放在assets/img,格式为img/xxx.png</ImageAdd>
+		<DownLoadState>书本下载的状态,0表示未下载，1表示正在下载，2表示下载完毕</DownLoadState>
+	</TopicItem> -->
+	<GrammarSort id="grammar0">
+		<Name>名词</Name>
+		<GrammarItems>
+			<GrammarItem id="grammar0Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/noun/noun1.txt]]></DownLoadAdd>
+			    <ItemName>1.名词一</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar0Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/noun/noun2.txt]]></DownLoadAdd>
+			    <ItemName>2.名词二</ItemName>
+			</GrammarItem>
+		</GrammarItems>
+	</GrammarSort>
+	
+	<GrammarSort id="grammar1">
+		<Name>动名词</Name>
+		<GrammarItems>
+			<GrammarItem id="grammar1Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/gerund/gerund1.txt]]></DownLoadAdd>
+			    <ItemName>1.动名词一</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar1Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/gerund/gerund2.txt]]></DownLoadAdd>
+			    <ItemName>2.动名词二</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar1Item2">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/gerund/gerund3.txt]]></DownLoadAdd>
+			    <ItemName>3.动名词三</ItemName>
+			</GrammarItem>
+		</GrammarItems>
+	</GrammarSort>
+	
+	<GrammarSort id="grammar2">
+		<Name>冠词</Name>
+		<GrammarItems>
+			<GrammarItem id="grammar2Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/article/article1.txt]]></DownLoadAdd>
+			    <ItemName>1.冠词一</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar2Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/article/article2.txt]]></DownLoadAdd>
+			    <ItemName>2.冠词二</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar2Item2">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/article/article3.txt]]></DownLoadAdd>
+			    <ItemName>3.冠词三</ItemName>
+			</GrammarItem>
+					<GrammarItem id="grammar2Item3">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/article/article4.txt]]></DownLoadAdd>
+			    <ItemName>4.冠词四</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar2Item4">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/article/article5.txt]]></DownLoadAdd>
+			    <ItemName>5.冠词五</ItemName>
+			</GrammarItem>
+		</GrammarItems>
+	</GrammarSort>
+	
+	<GrammarSort id="grammar3">
+		<Name>不定式</Name>
+		<GrammarItems>
+			<GrammarItem id="grammar3Item0">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/infinitive/infinitive1.txt]]></DownLoadAdd>
+			    <ItemName>1.不定式一</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar3Item1">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/infinitive/infinitive2.txt]]></DownLoadAdd>
+			    <ItemName>2.不定式二</ItemName>
+			</GrammarItem>
+			<GrammarItem id="grammar3Item2">
+			    <DownLoadAdd><![CDATA[http://coodroid.com/down.php?f=cet4/grammar/infinitive/infinitive3.txt]]></DownLoadAdd>
+			    <ItemName>3.不定式三</ItemName>
+			</GrammarItem>
+		</GrammarItems>
+	</GrammarSort>
+</Grammar>

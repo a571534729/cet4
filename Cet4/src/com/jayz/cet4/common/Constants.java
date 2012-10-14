@@ -41,6 +41,10 @@ public class Constants {
 	public static class bundleKey{
 		/** 真题信息 **/
 		public static final String topicItem="topicItem";
+		/** 语法信息 **/
+		public static final String grammarItem="grammarItem";
+		/** 读物信息 **/
+		public static final String readingItem="readingItem";		
 		/** 需要弹出的信息*/
 		public static final String toastMag="toastMsg";
 		/** 通用业务异常 */

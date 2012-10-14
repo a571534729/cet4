@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <ListView 
+            android:id="@+id/lvTopicContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/line"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"
+            android:cacheColorHint="#00000000"/>
+</RelativeLayout>
